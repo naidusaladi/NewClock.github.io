@@ -22,7 +22,9 @@ body{
   
 }
 @media (max-width:768px){
+  .buttons{
   top:10%;
+  }
 }
 
 .btn{
