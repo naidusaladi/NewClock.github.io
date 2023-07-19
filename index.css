@@ -18,8 +18,11 @@ body{
   margin-bottom: 100px;
   margin-left: 50px;
   position: fixed;
-  top:15%;
+  top:13%;
   
+}
+@media (max-width:768px){
+  top:10%;
 }
 
 .btn{
