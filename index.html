@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clock</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="buttons">
+    <button class="btn clockbtn">Clock</button>
+    <button class="btn stp">Stop Watch</button>
+    <button class="btn day">Day Claculater</button>
+  </div>
+  <div class="totalclock">
+  <div class="clock">
+    <div class="hand hour" data-hour-hand></div>
+    <div class="hand minute" data-minute-hand></div>
+    <div class="hand second" data-second-hand></div>
+    <div class="number number1">1</div>
+    <div class="number number2">2</div>
+    <div class="number number3">3</div>
+    <div class="number number4">4</div>
+    <div class="number number5">5</div>
+    <div class="number number6">6</div>
+    <div class="number number7">7</div>
+    <div class="number number8">8</div>
+    <div class="number number9">9</div>
+    <div class="number number10">10</div>
+    <div class="number number11">11</div>
+    <div class="number number12">12</div>   
+  </div>
+  <div class="digital">
+    <div class="dig-hour dig">00</div>
+    <div class="dig-min dig">00</div>
+    <div class="dig-sec dig">00</div>
+    <div class="dig-ampm dig">AM</div>
+</div>
+</div>
+<div class="totalstopwatch">
+<div class="stopwatch">
+  <div class="stop-hour  stp">00</div>
+  <div class="stop-min stp">00</div>
+  <div class="stop-sec stp">00</div>
+</div>
+<div class="stp_buttons">
+   <div class="stp_btn start">Start</div>
+   <div class="stp_btn stop">Stop</div>
+   <div class="stp_btn reset">Reset</div>
+</div>
+</div>
+<div class="totalday">
+  <div class="resday">DAY</div>
+  <div class="inputs">
+  <div>
+  <label for="day"> Date:</label>
+  <input type="number" min="1" max="31" class="cal_day" name="day" style="margin-left: 30px;">
+  </div>
+  <div>
+  <label for="month">Month:</label>
+  <input type="number" min="1" max="12" class="cal_month" name="month">
+  </div>
+  <div>
+  <label for="year" style="padding-left: 20px;">Year:</label>
+  <input type="number" min="1500" max="2999" class="cal_year" name="year"> 
+  </div>
+  <button class="submit">Submit</button>
+</div>
+</div>
+  <script src="index.js"></script>
+</body>
+</html>
